@@ -128,7 +128,7 @@ fun SoftMusicScreen() {
                     .size(60.dp)
                     .clip(CircleShape)
                     .background(Dark)
-                    .clickable { picker.launch(arrayOf("audio/*", "video/mp4", "application/ogg")) },
+                    .clickable { picker.launch(arrayOf("audio/*", "video/*", "application/ogg")) },
                 contentAlignment = Alignment.Center
             ) { Text("♫", color = Color.White, fontSize = 26.sp) }
         }
